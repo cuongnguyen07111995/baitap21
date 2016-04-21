@@ -1,0 +1,19 @@
+{
+  "name": "mongo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ect": "^0.5.9",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.12"
+  }
+}
