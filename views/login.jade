@@ -1,0 +1,15 @@
+extends layouts
+
+block content
+   form(method='post',action='/signup'.encty='application/x-www-form-urlencoded')
+      h3  Log in
+      if invalid
+        .error Please enter a vakid email address and password.
+      ul
+        li
+          label(for='email') Email
+          input#email(name='email')
+        li
+          label(for='pass') Password
+          input#pass(name='pass')
+      input(type='submit',value='Log In')

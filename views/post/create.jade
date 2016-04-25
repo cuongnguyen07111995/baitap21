@@ -1,0 +1,16 @@
+extends../layouts
+
+block content
+   action = post ? "/post/edit/" +post.id:"/post/created";
+   title = post ? post.title: ' '
+   body = post ? post.body:' '
+   form(method="post",action=action)
+      ul
+         li
+            label(for="title") Title
+            input#title(name="title")
+         li
+            label(for="body") Body
+            textarea#body(name="body")
+         li
+            input(type="submit", value="Save")

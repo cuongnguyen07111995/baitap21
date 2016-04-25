@@ -1,0 +1,7 @@
+extends ..users/layouts
+
+block content
+   h2= post.title
+   p= post.body
+   span= post.created.toGMTString()
+   p by #{post.author.fullname}

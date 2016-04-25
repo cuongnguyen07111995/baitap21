@@ -1,19 +1,35 @@
 {
-  "name": "mongo",
+  "name": "mongod",
   "private": true,
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.0",
+    "bower": "^1.7.9",
+    "cookie-parser": "^1.4.1",
+    "debug": "^2.2.0",
     "ect": "^0.5.9",
     "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "html": "0.0.10",
     "http": "0.0.0",
     "jade": "^1.11.0",
-    "mongoose": "^4.4.12"
-  }
+    "mocha": "^2.4.5",
+    "mongodb": "^2.1.16",
+    "mongoose": "^4.4.13",
+    "monk": "^1.0.1",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "php": "0.0.1",
+    "serve-favicon": "^2.3.0",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }

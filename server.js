@@ -1,11 +1,22 @@
-var express = require('express');
-var app = express();
-var ect = require('ect');
-var routes = require('./routes');
-var ectRenderer = ect({ watch: true, root: __dirname + '/views', ext : '.ect' });
-app.listen(3000, function () {
-  console.log('now listening on http://localhost:');
+var mongoose =require('mongoose');
+var express=require('express');
+
+var routes=require('./routes');
+//var models = require('./models');
+//var middeware=require('./middleware');
+
+//mongoose.set('debug',true);
+//mongoose.model('User',schema);
+mongoose.connect('mongodb://localhost',function(err){
+	if(err) throw err;
+	console.log('connected!');
+
+	var app=express();
+	//middeware(app);
+	routes(app);
+	//app.get('/',function(req,res){
+		//res.send(200,'hello mongoose blog');})
+	app.listen(3000,function(){
+		console.log('now listening on http://localhost:3000');
+	})
 })
-app.set('view engine', 'ect');
-app.engine('ect', ectRenderer.render);
-app.use('/', routes);
