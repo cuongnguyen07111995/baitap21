@@ -2,7 +2,7 @@
 
 **Name of your app** Đây là trang web cho phép người dùng gửi tin nhắn. Thời gian nộp: 0h ngày 27/4.
 
-Danh sách sinh viên: Nguyên Ngọc Cương-1312060; Nguyễn Lê Quốc Dung-1312093
+Danh sách sinh viên: Nguyễn Ngọc Cương-1312060; Nguyễn Lê Quốc Dũng-1312093
 
 URL: https://github.com/cuongnguyen07111995/baitap21.git
 
