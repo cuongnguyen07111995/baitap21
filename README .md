@@ -43,7 +43,7 @@ Các chuẩn đầu ra cần thực hiện:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-Demo_1312060_1312093.gif
+![Demo_1312060_1312093.gif](Demo_1312060_1312093.gif)
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
